@@ -8,7 +8,9 @@
   "license": "MIT",
   "private": "true",
   "scripts": {
-    "publish": "concurrently \"yarn workspace @tcaty/eslint-config publish\" \"yarn workspace @tcaty/prettier-config publish\""
+    "publish-eslint-config": "yarn workspace @tcaty/prettier-config publish",
+    "publish-prettier-config": "yarn workspace @tcaty/eslint-config publish",
+    "publish-all": "concurrently \"yarn workspace @tcaty/eslint-config publish\" \"yarn workspace @tcaty/prettier-config publish\""
   },
   "workspaces": [
     "packages/*"
