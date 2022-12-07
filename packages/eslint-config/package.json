@@ -2,7 +2,7 @@
   "name": "@tcaty/eslint-config",
   "version": "1.0.0",
   "description": "Hi! This is my eslint config for pet projects :)",
-  "main": ".eslintrc",
+  "main": "eslint-config.json",
   "author": "tcaty",
   "license": "MIT",
   "publishConfig": {

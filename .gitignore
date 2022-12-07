@@ -1,3 +1,4 @@
 node_modules
 eslint-config/node_modules
 prettier-config/node_modules
+yarn.lock
