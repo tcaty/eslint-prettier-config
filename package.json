@@ -1,0 +1,9 @@
+{
+  "name": "@tcaty/eslint-prettier-config",
+  "version": "1.0.0",
+  "description": "Hi this is my eslint prettier config :)",
+  "main": "index.js",
+  "repository": "git@github.com:tcaty/eslint-prettier-config.git",
+  "author": "tcaty",
+  "license": "MIT"
+}
