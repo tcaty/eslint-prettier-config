@@ -1,0 +1,11 @@
+{
+  "name": "@tcaty/prettier-config",
+  "version": "1.0.0",
+  "description": "Hi! This is my prettier config for pet projects :)",
+  "main": ".prettierrc",
+  "author": "tcaty",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@tcaty/eslint-config",
+  "version": "1.0.0",
+  "description": "Hi! This is my eslint config for pet projects :)",
+  "main": "index.js",
+  "author": "tcaty",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
