@@ -8,6 +8,13 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Eslint",
+    "Config"
+  ],
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
