@@ -1,6 +1,6 @@
 {
   "name": "@tcaty/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hi! This is my prettier config for pet projects :)",
   "main": "./prettier-config.json",
   "author": "tcaty",
