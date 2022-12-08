@@ -2,7 +2,7 @@
   "name": "@tcaty/prettier-config",
   "version": "1.0.2",
   "description": "Hi! This is my prettier config for pet projects :)",
-  "main": "prettier-config.json",
+  "main": "./prettier-config.json",
   "author": "tcaty",
   "license": "MIT",
   "publishConfig": {
