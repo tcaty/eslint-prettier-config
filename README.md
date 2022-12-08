@@ -9,21 +9,27 @@ fullstack development (or just for frontend / backend) with these techonologies:
 
 First of all install packages like dev deps, which contains configuration files
 
-`yarn add -D @tcaty/eslint-config @tcaty/prettier-config`
+```
+yarn add -D @tcaty/eslint-config @tcaty/prettier-config
+```
 
 Next step is peer-deps installation. If you haven't installed peer deps before, execute command below. This one will install cli which provides peer deps installation.
 
-`yarn global add install-peerdeps`
+```
+yarn global add install-peerdeps
+```
 
 Install peer deps
 
-`install-peerdeps -D @tcaty/eslint-config
+```
+install-peerdeps -D @tcaty/eslint-config
 install-peerdeps -D @tcaty/prettier-config
-`
+```
 
 After these steps your dev deps in `package.json` should looks like this
 
-`"devDependencies": {
+```
+"devDependencies": {
   "@tcaty/eslint-config": "1.0.3",
   "@tcaty/prettier-config": "1.0.3",
   "eslint": "^8.15.0",
@@ -31,7 +37,7 @@ After these steps your dev deps in `package.json` should looks like this
   ...otherPeerDeps,
   ...otherDeps
 }
-`
+```
 
 ## Configuration
 
@@ -41,15 +47,19 @@ Create two files in the root of your project
 
 Configure your `.eslintrc` file
 
-`{
+```
+{
   "extends": ["@tcaty/eslint-config"],
   ...hereYouCanAlsoOverrideRules
-}`
+}
+```
 
 Configure your `.prettierrc` file
 
-`"@tcaty/prettier-config"
-...hereYouCanAlsoOverrideRules`
+```
+"@tcaty/prettier-config"
+...hereYouCanAlsoOverrideRules
+```
 
 ## Conclusion
 
